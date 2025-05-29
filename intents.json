@@ -1,0 +1,547 @@
+{
+    "intents": [
+        {
+            "tag": "mvp_intro",
+            "patterns": [
+                "What is an MVP?",
+                "Can you explain MVP?",
+                "Tell me about MVPs",
+                "Why build an MVP?",
+                "What does MVP mean?",
+                "Do you offer MVP development?",
+                "What is minimum viable product?",
+                "Why do startups need MVPs?",
+                "How does MVP help businesses?",
+                "What is the benefit of launching an MVP?",
+                "Why start with MVP?",
+                "Is MVP good for testing ideas?"
+            ],
+            "responses": [
+                "An MVP, or Minimum Viable Product, is the simplest version of a product that solves a real problem and can be released quickly to get user feedback.",
+                "Building an MVP helps you test your idea in the real world with minimal cost and time. It's a smart way to learn before scaling.",
+                "MVPs are used to validate product ideas early. You launch fast, get real user feedback, and decide what to build next based on data.",
+                "Startups often begin with an MVP to check market fit, attract investors, or gather feedback before investing in full-scale development.",
+                "An MVP saves time and money by helping you focus on core functionality first. You build, test, and improve step by step.",
+                "An MVP is perfect if you want to bring an idea to life quickly and understand if it truly meets user needs."
+            ]
+        },
+        {
+            "tag": "mvp_approach",
+            "patterns": [
+                "How do you build MVPs?",
+                "What is your MVP process?",
+                "Can you explain your MVP approach?",
+                "How do you handle MVP development?",
+                "What's your method for MVPs?",
+                "How do you launch MVPs?",
+                "Do you follow a process for MVPs?",
+                "Tell me how 88 Hours builds MVPs",
+                "Do you offer rapid prototyping?",
+                "What is your MVP strategy?",
+                "How do you make MVPs quickly?",
+                "Do you validate ideas before building?",
+                "How do you turn ideas into MVPs?"
+            ],
+            "responses": [
+                "We follow a lean, user-first approach. We understand your idea, prioritize key features, and launch a working MVP within weeks—ready for testing or pitching.",
+                "Our MVP process starts with clear goal setting, rapid prototyping, and iterative development. You get a working product fast, with real value.",
+                "We work closely with you to define what matters most, design fast, build smart, and get your MVP to market quickly for feedback.",
+                "At 88 Hours, we combine rapid prototyping with smart architecture, so your MVP is not just fast it is scalable and ready to evolve.",
+                "We help you test assumptions early by launching a working MVP with essential features. Then we use feedback to guide future development.",
+                "Our MVP workflow is fast and collaborative: discovery, prototyping, development, launch. We keep it agile and focused on results."
+            ]
+        },
+        {
+            "tag": "about_company",
+            "patterns": [
+                "tell me about your company",
+                "Tell me about 88 Hours",
+                "What is 88hours?",
+                "Who are you?",
+                "Introduce yourself",
+                "What do you do?",
+                "Give me a company intro",
+                "Tell me about your company",
+                "What is your company all about?",
+                "Can you describe 88 Hours?",
+                "What is your story?",
+                "Why is your company called 88 Hours?",
+                "What's the mission of 88 Hours?",
+                "Who founded 88 Hours?",
+                "Why was 88 Hours started?",
+                "Are you a startup?",
+                "Are you a tech company?",
+                "Do you help businesses?",
+                "How do you support companies?",
+                "Who do you work with?",
+                "What is 88 Hours known for?"
+            ],
+            "responses": [
+                "88 Hours is a creative and fast-moving company that helps bring ideas to life. We work with startups and businesses to build great digital products.",
+                "We're a passionate team that supports founders and innovators by helping them turn ideas into real, working products.",
+                "88 Hours is all about helping people launch and grow new ideas. We work closely with businesses to build strong digital solutions.",
+                "We are a company that loves solving problems and building things that matter. At 88 Hours, we focus on making your ideas real.",
+                "88 Hours partners with startups and teams to build and grow digital products, making innovation easier and faster.",
+                "We exist to help entrepreneurs, creators, and businesses build new things and bring their visions to reality."
+            ]
+        },
+        {
+            "tag": "services",
+            "patterns": [
+                "what services do you give",
+                "what services do you provide",
+                "What services do you offer?",
+                "Tell me about your services",
+                "What can 88hours do?",
+                "What solutions do you provide?",
+                "What does your company specialize in?",
+                "What kind of work do you do?",
+                "What are your main services?",
+                "How can 88hours help my business?",
+                "What areas do you cover?",
+                "What services are included?",
+                "Can you help with software development?",
+                "Do you offer tech solutions?",
+                "Are you just a development agency?",
+                "Do you offer more than just coding?",
+                "Is 88hours only for startups?",
+                "Who do you work with?"
+            ],
+            "responses": [
+                "At 88hours, we help founders, startups, and enterprises build digital products—fast and smart. We specialize in MVP development, AI solutions, full-stack platforms, mobile apps, DevOps, and cybersecurity.",
+                "We offer a wide range of services including MVP development, AI & Machine Learning, web and mobile app development, SaaS platforms, cloud infrastructure, and cybersecurity."
+            ]
+        },
+        {
+            "tag": "ai_services",
+            "patterns": [
+                "Do you offer AI services?",
+                "Can you build AI products?",
+                "Tell me about your machine learning solutions",
+                "Do you use AI in your projects?",
+                "What AI services do you provide?",
+                "Can you integrate machine learning?",
+                "Do you work with artificial intelligence?",
+                "Do you develop custom AI models?",
+                "Can you build predictive systems?",
+                "Can you use NLP or computer vision?",
+                "Do you offer deep learning services?",
+                "Can you automate workflows using AI?",
+                "Do you provide data science solutions?",
+                "Can you help with AI strategy?"
+            ],
+            "responses": [
+                "Yes, we offer a wide range of AI and machine learning services—from building custom models and predictive systems to integrating AI into your existing platforms for smarter decisions.",
+                "Our AI team helps you build intelligent products, whether it is natural language processing, computer vision, or recommendation systems fully tailored to your business needs."
+            ]
+        },
+        {
+            "tag": "mvp_services",
+            "patterns": [
+                "Do you build MVPs?",
+                "Can you help with MVP development?",
+                "Do you offer rapid prototyping?",
+                "What MVP services do you provide?",
+                "Can you turn ideas into MVPs?",
+                "Do you offer product prototyping?",
+                "Can you help me build an MVP quickly?",
+                "Do you assist with MVP validation?"
+            ],
+            "responses": [
+                "Yes, we specialize in MVP development and rapid prototyping—helping you bring your idea to life with just the core features needed to test, pitch, or validate in the market.",
+                "Our MVP services are designed to help you launch fast, get real user feedback, and decide your next steps—all while saving time and resources."
+            ]
+        },
+        {
+            "tag": "fullstack_services",
+            "patterns": [
+                "Do you offer full-stack development?",
+                "What tech stack do you use?",
+                "Do you build SaaS platforms?",
+                "Can you handle both frontend and backend?",
+                "Do you build scalable products?",
+                "Can you create end-to-end software?",
+                "Do you work on cloud-based software?",
+                "Do you build custom SaaS products?"
+            ],
+            "responses": [
+                "Yes, we build secure, scalable full-stack and SaaS solutions using modern technologies. From frontend UI to backend systems, we handle everything end to end.",
+                "Our development teams create robust, fast, and future-proof web applications tailored to your goals—ready for growth from Day 1."
+            ]
+        },
+        {
+            "tag": "app_development_services",
+            "patterns": [
+                "Do you build mobile apps?",
+                "Do you offer web development services?",
+                "Can you develop responsive web portals?",
+                "Do you design mobile-friendly platforms?",
+                "Do you build Android and iOS apps?",
+                "Do you create mobile applications?",
+                "Can you build a web-based dashboard?",
+                "Do you develop cross-platform apps?"
+            ],
+            "responses": [
+                "Yes, we develop both web and mobile applications with seamless user experiences. Whether it's iOS, Android, or a responsive web platform, we deliver fast and polished products.",
+                "From sleek frontends to reliable backend systems, our app development services ensure performance, usability, and scalability across devices."
+            ]
+        },
+        {
+            "tag": "devops_services",
+            "patterns": [
+                "Do you provide DevOps services?",
+                "Can you help with cloud infrastructure?",
+                "Do you set up CI/CD pipelines?",
+                "Do you offer cloud-native solutions?",
+                "Do you handle deployments and automation?",
+                "Can you manage my cloud servers?",
+                "Do you offer DevOps consulting?",
+                "Do you work with AWS or other cloud platforms?"
+            ],
+            "responses": [
+                "Yes, we offer DevOps and cloud infrastructure services—automating deployments, improving performance, and ensuring scalability for your tech stack.",
+                "Our team sets up resilient, cloud-native environments that support high-growth products with minimal downtime and maximum efficiency."
+            ]
+        },
+        {
+            "tag": "cybersecurity_services",
+            "patterns": [
+                "Do you offer cybersecurity services?",
+                "Can you secure my application?",
+                "Do you provide penetration testing?",
+                "Do you do ethical hacking?",
+                "Do you perform security audits?",
+                "Can you help with compliance?",
+                "How do you handle application security?",
+                "Do you offer vulnerability assessments?"
+            ],
+            "responses": [
+                "Yes, we offer cybersecurity services including penetration testing, security audits, and compliance consulting—to help protect your product and data.",
+                "Our team identifies and resolves vulnerabilities before they become threats, ensuring your app is secure and trusted by users."
+            ]
+        },
+        {
+            "tag": "chatbot_services",
+            "patterns": [
+                "Do you build chatbots?",
+                "Can you create AI chatbots?",
+                "Do you offer chatbot development services?",
+                "Do you deploy chatbots on websites?",
+                "Can you design custom chatbot flows?",
+                "Do you support chatbot integration?",
+                "Can you build a chatbot for customer service?",
+                "Do you develop chatbots for WhatsApp or Messenger?"
+            ],
+            "responses": [
+                "Yes, we design and build intelligent chatbots with natural conversations, backend integration, and multi-platform support—tailored for sales, support, or automation.",
+                "Our chatbot solutions include custom design, development, and deployment on web, mobile, and messaging platforms—giving you 24/7 engagement power."
+            ]
+        },
+        {
+            "tag": "web_development_services",
+            "patterns": [
+                "Do you offer web development?",
+                "Can you build a website for my business?",
+                "Do you develop responsive websites?",
+                "What kind of web development do you provide?",
+                "Do you design and build websites?",
+                "Can you create custom web platforms?",
+                "Do you build web dashboards?",
+                "Do you make modern web apps?",
+                "Do you offer frontend and backend development?",
+                "Can you help with web portal development?"
+            ],
+            "responses": [
+                "Yes, we build modern, responsive websites—from landing pages and business sites to custom web apps and dashboards tailored to your goals.",
+                "Our web development services cover frontend design, backend architecture, and everything in between to deliver smooth, scalable web experiences."
+            ]
+        },
+        {
+            "tag": "development",
+            "patterns": [
+                "What is your development approach?",
+                "How do you manage projects?",
+                "What is your sprint process?",
+                "Tell me about your agile methodology",
+                "How do you build products?",
+                "How do you handle development cycles?",
+                "Can you explain your project workflow?",
+                "What is your process for launching products?",
+                "Do you follow Agile or Scrum?",
+                "How does your team deliver projects?",
+                "What is your dev process like?",
+                "How do you organize sprints?",
+                "How do you work with clients during development?",
+                "How do you plan your work?"
+            ],
+            "responses": [
+                "We follow an agile, sprint-based development approach—designed for speed, feedback, and adaptability. This allows us to deliver quickly while staying aligned with evolving client goals.",
+                "Our teams work in short, focused sprints, with frequent checkpoints to gather feedback and make fast, data-driven adjustments to the product roadmap.",
+                "We collaborate closely with clients through each phase—from planning to delivery—ensuring transparency, flexibility, and rapid progress throughout the development cycle.",
+                "Our process combines Agile best practices with design thinking and lean startup principles to move quickly from idea to product without sacrificing quality."
+            ]
+        },
+        {
+            "tag": "sprintone",
+            "patterns": [
+                "What happens in Sprint 1?",
+                "What is the first step of your process?",
+                "How do you begin MVP development?",
+                "What do you do in the first sprint?"
+            ],
+            "responses": [
+                "Sprint 1 is focused on ideation and building a functional MVP in 88 hours.",
+                "We start with vision, strategy, and rapid MVP development.",
+                "Sprint 1 delivers your MVP quickly through agile planning and execution."
+            ]
+        },
+        {
+            "tag": "sprinttwo",
+            "patterns": [
+                "What happens in Sprint 2?",
+                "How do you help scale after MVP?",
+                "Do you assist in market expansion?",
+                "What is next after MVP delivery?"
+            ],
+            "responses": [
+                "Sprint 2 focuses on scaling your product and expanding market presence.",
+                "We help secure investments and support long-term growth after the MVP.",
+                "Our second sprint targets market domination and product scaling."
+            ]
+        },
+        {
+            "tag": "project_timeline",
+            "patterns": [
+                "How long does a project take?",
+                "What is your development timeline?",
+                "How fast can you deliver?",
+                "How much time do you need to build an MVP?",
+                "What is your delivery schedule?",
+                "What is the usual timeline for development?",
+                "Can you deliver projects quickly?",
+                "How long does MVP development take?",
+                "What is your average project duration?",
+                "Do you offer rapid prototyping?"
+            ],
+            "responses": [
+                "Timelines depend on project scope, but MVPs are usually delivered in 2 to 6 weeks using rapid sprints and clear milestones.",
+                "We follow agile sprints to deliver quickly and iteratively. For MVPs, initial versions often go live in under a month.",
+                "Delivery speed depends on complexity. We prioritize rapid prototyping and keep you in the loop through every sprint cycle."
+            ]
+        },
+        {
+            "tag": "idea",
+            "patterns": [
+                "What if I only have an idea?",
+                "Can you work without full specifications?",
+                "I just have a concept, not a full plan",
+                "I only have a rough idea",
+                "Can you build something from scratch?",
+                "I do not have technical documentation",
+                "I want to start from an idea",
+                "I have an idea but nothing else",
+                "Can you help shape my product idea?",
+                "Is it okay if I only have an idea?"
+            ],
+            "responses": [
+                "That is totally fine! We specialize in working from early-stage ideas and transforming them into tangible MVPs or prototypes.",
+                "No specs? No problem. We collaborate closely with you to define your products core features and turn the concept into a working product.",
+                "We help founders shape raw concepts into development-ready blueprints, guiding you through strategy, features, and roadmap.",
+                "Even if you only have a rough idea, our team can guide you from concept to creation—starting with lean development and validation."
+            ]
+        },
+        {
+            "tag": "responsible",
+            "patterns": [
+                "How do you ensure responsible AI?",
+                "Do you build ethical AI?",
+                "Is your AI development responsible?"
+            ],
+            "responses": [
+                "We prioritize data privacy, fairness, and transparency in every AI solution.",
+                "Responsible AI is about accountability, privacy, and building trust all baked into our process.",
+                "We balance innovation with ethics, focusing on safe and inclusive AI."
+            ]
+        },
+        {
+            "tag": "techstack",
+            "patterns": [
+                "What technologies do you use?",
+                "What tech stack do you prefer?",
+                "Which frameworks do you use?",
+                "Tell me about your tech stack",
+                "What programming languages do you work with?",
+                "Do you use React or Node.js?",
+                "What tools power your development?",
+                "Which backend technologies do you use?",
+                "What frontend stacks do you build with?",
+                "Are you flexible with tech stacks?"
+            ],
+            "responses": [
+                "For frontend, we commonly use React, Vue.js, or Flutter; for backend, Node.js, Django Python, or Express. We select stacks based on performance and scalability.",
+                "Our usual stack includes React or Next.js for the frontend, and Node.js, Python Django or FastAPI, or Laravel for backend services—chosen to best fit your project needs.",
+                "We use modern frontend stacks like React, Angular, or Flutter, paired with robust backend tools such as Express.js, Django, or Firebase depending on your use case.",
+                "Our full-stack projects often combine React or Vue.js on the frontend with scalable backend solutions like Node.js, Python, or Go, ensuring flexibility and speed."
+            ]
+        },
+        {
+            "tag": "penetration",
+            "patterns": [
+                "When should I do a penetration test?",
+                "Do I need security testing?",
+                "Is a penetration test necessary?"
+            ],
+            "responses": [
+                "If you're launching or scaling, it is time. We find vulnerabilities before attackers do.",
+                "Pen tests help you stay secure as you grow. We handle them end to end.",
+                "Launching a product or handling sensitive data? You need a penetration test."
+            ]
+        },
+        {
+            "tag": "brand",
+            "patterns": [
+                "Can you help with branding and product design?",
+                "Do you do user research?",
+                "Can you create our product UI and brand?"
+            ],
+            "responses": [
+                "Yes! We design identity and UI UX using interviews, heatmaps, and rapid testing for impact.",
+                "From logo to UI, we design everything with clarity, emotion, and conversion in mind.",
+                "We blend lean user research with bold design to create standout products."
+            ]
+        },
+        {
+            "tag": "postlaunch",
+            "patterns": [
+                "Do you support post launch growth?",
+                "Can you help after the MVP?",
+                "Do you offer ongoing support?",
+                "What happens after launch?",
+                "Will you help us scale later?",
+                "Is there support after product delivery?",
+                "Do you provide updates and maintenance?",
+                "Will you help with marketing or growth after launch?",
+                "Can you guide post-MVP expansion?",
+                "What services are available after going live?"
+            ],
+            "responses": [
+                "Absolutely. After launch, we support you with scaling, performance optimization, and product iteration based on real-world feedback.",
+                "We do not just build and leave—we stay involved to maintain, enhance, and grow your product long term.",
+                "Post-launch services include technical maintenance, UX improvements, infrastructure scaling, and marketing strategy support.",
+                "Once your product is live, we offer hands-on help with user acquisition, performance tuning, feature rollouts, and strategic guidance."
+            ]
+        },
+        {
+            "tag": "growth",
+            "patterns": [
+                "How do you help startups grow?",
+                "Do you help with growth?",
+                "Can you scale my startup?"
+            ],
+            "responses": [
+                "Yes! From MVP to investment readiness to growth hacking we are with you every step of the way.",
+                "We help with go to market strategy, scaling, and growth campaigns tailored to your goals.",
+                "Our growth team helps you attract users, optimize funnels, and scale revenue."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi", "Hello", "Hey", "Good morning", "Good evening", "Is anyone there?", "How are you doing?", "What's up?", "Howdy", "Yo"
+            ],
+            "responses": [
+                "Hello there! How can I help you today?",
+                "Hi! Welcome to 88 Hours. What would you like to know?",
+                "Hey! Ready to build something amazing?",
+                "Good to see you! What can I assist you with?",
+                "Hi! Got a question? I'm here to help."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye", "Goodbye", "See you", "Catch you later", "Talk to you soon", "Peace out", "Take care", "Farewell"
+            ],
+            "responses": [
+                "Goodbye! Feel free to reach out anytime.",
+                "See you soon! Let us know when you're ready to launch.",
+                "Take care and keep building!",
+                "Farewell! Wishing your startup all the best.",
+                "Thanks for visiting 88 Hours. Until next time!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks", "Thank you", "Much appreciated", "Thanks a lot", "Thank you so much", "Appreciate it", "Thanks for the help", "Grateful for your help"
+            ],
+            "responses": [
+                "You're very welcome!",
+                "Happy to help anytime!",
+                "Glad I could assist you.",
+                "Anytime! We're here to support your growth.",
+                "It is our pleasure. Let us know how else we can help."
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "How can I contact you?", "What is your email address?", "Where are you located?", "How do I get in touch with 88 Hours?", "Can I call you?",
+                "Do you have a phone number?", "How can I reach out to your team?", "Give me your contact details", "What is the best way to connect with you?", "I want to contact 88 Hours"
+            ],
+            "responses": [
+                "You can reach us at hello@88hours.io or visit our website at www.88hours.io for more info.",
+                "Our team is happy to assist! Drop us an email at hello@88hours.io or reach out via the contact form on our site.",
+                "Feel free to contact us anytime at hello@88hours.io. We're always ready to talk about your next big idea!",
+                "For inquiries, write to us at hello@88hours.io or explore more at www.88hours.io.",
+                "Looking to start something great? Contact us at hello@88hours.io."
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "Where is your office?", "Where are you based?", "Are you located in Australia?", "Is your company in Pakistan or Australia?",
+                "What is your office location?", "Do you operate internationally?", "Where can I find 88 Hours?", "Which countries are you registered in?"
+            ],
+            "responses": [
+                "We are based in Melbourne, Australia and also registered in Pakistan.",
+                "88 Hours operates from Melbourne, Australia and is legally registered in both Australia and Pakistan.",
+                "Our main office is in Melbourne, but we proudly serve and are registered in both Australia and Pakistan.",
+                "You will find us in Melbourne, Australia. We are also registered in Pakistan to support a broader audience."
+            ]
+        },
+        {
+            "tag": "creator",
+            "patterns": [
+                "Who created this chatbot?", "Who is the developer of this bot?", "Who built this chatbot?", "Tell me about the creator",
+                "Who made this chatbot?", "Who is behind this assistant?", "Who developed this?"
+            ],
+            "responses": [
+                "This chatbot was created by Ammar Ali Khan, a professional AI engineer at 88 Hours.",
+                "Ammar Ali Khan, our expert AI engineer at 88 Hours, developed this chatbot.",
+                "Built by Ammar Ali Khan, who works as an AI engineer at 88 Hours.",
+                "The developer behind this assistant is Ammar Ali Khan, a skilled AI engineer part of the 88 Hours team."
+            ]
+        },
+        {
+            "tag": "payment",
+            "patterns": [
+                "How can I make a payment?",
+                "Do you accept card or bank transfer?",
+                "Tell me about payment methods",
+                "What is the payment process?",
+                "How do I pay?",
+                "Can I pay online?",
+                "Do you accept Visa or Mastercard?",
+                "What cards do you accept?",
+                "Is online card payment available?"
+            ],
+            "responses": [
+                "To proceed with payment, press the purple 'Get Started' button at the top, enter your personal details, and our team will reach out. We accept Visa, Mastercard, bank transfers, and online payments.",
+                "After submitting your details through the 'Get Started' button, our team will contact you to arrange payment via Visa, Mastercard, direct bank transfer, or other supported options.",
+                "We support payments via Mastercard, Visa, online transfers, and more. Just start by clicking the 'Get Started' button above and we'll guide you through the process.",
+                "Simply press the 'Get Started' button above to submit your details. We accept various payment methods including Visa, Mastercard, and secure bank transfers based on your preference."
+            ]
+        }
+    ]
+}
