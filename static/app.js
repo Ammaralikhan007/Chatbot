@@ -69,7 +69,7 @@ class Chatbox {
     updateChatText(chatbox) {
         let html = '';
         this.messages.slice().reverse().forEach(function(item) {
-            if (item.name === "chat bot demo") {
+            if (item.name === "88 hours chatbot") {
                 html += '<div class="messages__item messages__item--visitor">' + item.message + '</div>';
             } else {
                 html += '<div class="messages__item messages__item--operator">' + item.message + '</div>';
