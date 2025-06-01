@@ -9,6 +9,7 @@ from flask_cors import CORS
 from chat import get_response
 
 app = Flask(__name__)
+CORS(app)  # enable CORS
 
 
 #first we need to take user to the main page to make them see what we want to show them
@@ -33,7 +34,7 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", debug=True)
 
 
 
