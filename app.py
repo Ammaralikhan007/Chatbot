@@ -9,7 +9,7 @@ from flask_cors import CORS
 from chat import get_response
 
 app = Flask(__name__)
-CORS(app)  # enable CORS
+#CORS(app)  # enable CORS
 
 
 #first we need to take user to the main page to make them see what we want to show them
