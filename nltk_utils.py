@@ -1,4 +1,5 @@
 import nltk
+nltk.data.path.append("./nltk_data")
 import numpy as np
 #nltk.download('punkt') #Download the Punkt tokenizer model, which is a pre-trained model used by NLTK for sentence and word tokenization.
 from nltk.stem.porter import PorterStemmer #Import the PorterStemmer, a rule-based algorithm for stemming words (reducing words to their root form).
