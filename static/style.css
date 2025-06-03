@@ -1,3 +1,4 @@
+/* Reset and base styles */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,10 +9,11 @@ body {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 100%;
-    background: transparent; /* Make sure no conflicting background */
+    background: white;
 }
 
-*, html {
+/* CSS Variables */
+:root {
     --primaryGradient: linear-gradient(93.12deg, #581B98 0.52%, #9C1DE7 100%);
     --secondaryGradient: linear-gradient(268.91deg, #581B98 -2.14%, #9C1DE7 99.69%);
     --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
@@ -19,52 +21,59 @@ body {
     --primary: #581B98;
 }
 
+/* CHATBOX */
 .chatbox {
     position: fixed;
     bottom: 30px;
     right: 30px;
 }
 
-/* Content hidden initially */
+/* CHATBOX SUPPORT - closed by default */
 .chatbox__support {
     display: flex;
     flex-direction: column;
-    background: transparent; /* removed white */
-    width: 300px;
-    height: 400px;
+    background: white;
+    width: 350px;
+    height: 450px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
     z-index: -1;
     opacity: 0;
-    transition: all 0.3s ease-in-out;
     pointer-events: none;
+    transition: all 0.5s ease-in-out;
 }
 
-/* When chatbox is active */
+/* CHATBOX SUPPORT - active/open */
 .chatbox--active {
     z-index: 9999;
     opacity: 1;
     pointer-events: auto;
 }
 
-/* Chat button */
+/* BUTTON */
 .chatbox__button {
     text-align: right;
 }
 
-.chatbox__button button {
-    padding: 10px;
-    background: white;
+.send__button {
+    padding: 6px;
+    background: transparent;
     border: none;
     outline: none;
-    border-radius: 50px;
-    box-shadow: var(--primaryBoxShadow);
     cursor: pointer;
 }
 
-/* Chatbox styling */
+/* HEADER */
 .chatbox__header {
+    position: sticky;
+    top: 0;
     background: var(--primaryGradient);
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
     padding: 15px 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -81,10 +90,11 @@ body {
 }
 
 .chatbox__description--header {
-    font-size: .9rem;
+    font-size: 0.9rem;
     color: white;
 }
 
+/* MESSAGES */
 .chatbox__messages {
     padding: 0 20px;
     margin-top: auto;
@@ -97,41 +107,63 @@ body {
     margin-top: 10px;
     padding: 8px 12px;
     max-width: 70%;
+    background: green;
 }
 
-.messages__item--visitor {
+.messages__item--visitor,
+.messages__item--typing {
     background: #E0E0E0;
-    border-radius: 20px 20px 20px 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     margin-right: auto;
 }
 
 .messages__item--operator {
     background: var(--primary);
     color: white;
-    border-radius: 20px 20px 0 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
     margin-left: auto;
 }
 
+/* FOOTER */
 .chatbox__footer {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-    padding: 15px 20px;
+    padding: 20px 20px;
     background: var(--secondaryGradient);
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
     box-shadow: var(--secondaryBoxShadow);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 20px;
 }
 
 .chatbox__footer input {
     width: 80%;
     border: none;
-    padding: 10px;
+    padding: 10px 10px;
     border-radius: 30px;
+    text-align: left;
 }
 
-.send__button {
-    background: transparent;
-    border: none;
+.chatbox__send--footer {
     color: white;
+}
+
+.chatbox__button button,
+.chatbox__button button:focus,
+.chatbox__button button:visited {
+    padding: 10px;
+    background: white;
+    border: none;
+    outline: none;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
