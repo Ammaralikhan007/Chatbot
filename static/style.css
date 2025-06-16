@@ -25,6 +25,7 @@ body {
   bottom: 24px;
   right: 24px;
   z-index: 1000;
+  background: transparent;
 }
 
 /* CHATBOT SUPPORT WINDOW */
@@ -335,6 +336,7 @@ body {
   display: flex;
   justify-content: flex-end;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background: transparent;
 }
 
 .chatbot__button {
@@ -392,6 +394,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: 9999;
+    background: transparent;
   }
 
   .chatbot__support {
