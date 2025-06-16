@@ -135,7 +135,7 @@ class Chatbot {
     this.updateSendButton();
     this.showTypingIndicator();
 
-    fetch($SCRIPT_ROOT + "/predict", {
+    fetch(`${$SCRIPT_ROOT}/predict`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
